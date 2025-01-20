@@ -7,3 +7,14 @@ verify forgot password redirect correctly
 verify that creating an account redirect correctly
 verify create page redirect correctly
 
+<Invalid login test scenarios>------
+verify login using valid e-mail and invalid password
+verify login using an invalid e-mail and valid password
+verify login using an invalid e-mail format and a valid password
+verify login using an invalid e-mail and invalid password
+verify login using a valid mobile number and an invalid password
+verify login using an invalid mobile number and a valid password
+verify login using an invalid mobile number and invalid password
+verify empty e-mail and empty password
+verify login using valid e-mail and old changed password
+verify login using old changed e-mail and valid password
