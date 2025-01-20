@@ -1,2 +1,9 @@
 --Login Test Scenarios --
 <Valid login test scenarios>------
+verify login using a valid e-mail and valid password
+verify login using a valid mobile number with different forms [with country code has formats like [+20, 002,...etc} and without country code ] and valid password
+verify login using a valid English and Arabic formats mobile number with different forms [with country code has formats like [+20, 002,...etc} and without country code ] and a valid password
+verify forgot password redirect correctly
+verify that creating an account redirect correctly
+verify create page redirect correctly
+
