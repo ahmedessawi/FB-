@@ -1,0 +1,27 @@
+--Sign Up test scenarios--
+<valid sign up test scenarios>------
+verify the question [Did you have account] redirect correctly
+verify valid first name at least 2 letters, last name, email or mobile number, password, date of birth and all types of gender 
+verify sign up using e-mails have different domains like [aaa@gmail.com, aaa@yahoo.com, aaa@hotmail.com and ...etc]
+verify sign up using a password at least 8 characters
+verify sign up using a custom gender
+verify sign up using a birth date starts from age 13 years or older
+
+<invalid sign up test scenarios>------
+verify sign up using blank fields
+verify sign up using a 1 letter as first name
+verify sign up without selected birth date
+verify sign up without using an E-mail
+verify sign up without using a Mobile number
+verify sign up without using a password
+verify sign up using a weak password
+verify sign up using a short password less than 8 characters
+verify sign up using invalid  E-mail format [@ sympol or domain]
+verify sign up using long input more than 255 characters for text fields 
+verify sign up using different letters from more than 1 language 
+verify sign up using dublicated E-mail was used before 
+verify sign up using under age user less than 13 years old 
+verify sign up using mixed letters uppercase and lowercase and at E-mail 
+verify sign up using Titles of any kind (e.g. professional, religious) as a name
+verify sign up using Words or phrases instead of a name
+verify sign up using Offensive or suggestive words of any kind
